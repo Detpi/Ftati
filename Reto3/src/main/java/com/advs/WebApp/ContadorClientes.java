@@ -13,10 +13,10 @@ import Model.Clientes;
 public class ContadorClientes {
     private Long total;
      private Clientes client;
-     
-    public ContadorClientes(Long total, Clientes clientes) {
+
+    public ContadorClientes(Long total, Clientes client) {
         this.total = total;
-        this.client = clientes;
+        this.client = client;
     }
 
     public Long getTotal() {
@@ -27,12 +27,15 @@ public class ContadorClientes {
         this.total = total;
     }
 
-    public Clientes getClientes() {
+    public Clientes getClient() {
         return client;
     }
 
-    public void setClientes(Clientes clientes) {
-        this.client = clientes;
+    public void setClient(Clientes client) {
+        this.client = client;
     }
- 
+     
+
+
+   
 }
